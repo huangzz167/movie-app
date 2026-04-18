@@ -1,0 +1,61 @@
+name: jiguang_yingshi
+description: 极光影视 - 影视聚合与本地播放体验演示应用
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # 状态管理与路由
+  provider: ^6.1.0
+  go_router: ^14.0.0
+
+  # 网络请求
+  http: ^1.1.0
+  dio: ^5.4.0
+
+  # 本地存储
+  sqflite: ^2.3.0
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.2.2
+
+  # 图片缓存
+  cached_network_image: ^3.3.0
+  flutter_cache_manager: ^3.4.1
+
+  # 播放器核心（支持 HLS + 倍速 + 轨道切换）
+  media_kit: ^1.1.11
+  media_kit_video: ^1.2.5
+  media_kit_libs_video: ^1.0.5
+
+  # 下载管理
+  flutter_downloader: ^1.11.8
+  path_provider: ^2.1.1
+  permission_handler: ^11.0.1
+
+  # UI 组件
+  carousel_slider: ^4.2.1
+  shimmer: ^3.0.0
+  pull_to_refresh: ^2.0.0
+
+  # 工具
+  intl: ^0.19.0
+  string_similarity: ^2.0.0
+  connectivity_plus: ^5.0.2
+  path: ^1.9.0
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
