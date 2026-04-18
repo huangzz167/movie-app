@@ -30,7 +30,9 @@ class _PlayerScreenState extends State<PlayerScreen> {
   late final VideoController _vcontroller;
   Timer? _historyTimer;
   Duration _pos = Duration.zero;
+  bool _resumeOffered = false;
   Duration _dur = Duration.zero;
+  
   StreamSubscription<Duration>? _posSub;
   StreamSubscription<Duration>? _durSub;
 
